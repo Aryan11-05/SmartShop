@@ -1,0 +1,21 @@
+{
+  "name": "smartshop-backend",
+  "version": "1.0.0",
+  "description": "Smart Shop Management System backend (Node.js, Express, TypeScript)",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "smartshop",
+    "pos",
+    "inventory",
+    "decision-support",
+    "express",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
